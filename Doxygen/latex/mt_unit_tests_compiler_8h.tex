@@ -1,0 +1,41 @@
+\hypertarget{mt_unit_tests_compiler_8h}{}\section{Source/mt\+Unit\+Tests\+Compiler.h File Reference}
+\label{mt_unit_tests_compiler_8h}\index{Source/mt\+Unit\+Tests\+Compiler.\+h@{Source/mt\+Unit\+Tests\+Compiler.\+h}}
+
+
+Scan all Test Files and generates the \mbox{\hyperlink{_m_t_unit_all_tests_8mqh}{M\+T\+Unit\+All\+Tests.\+mqh}} file.  
+
+
+{\ttfamily \#include $<$Q\+Object$>$}\newline
+{\ttfamily \#include $<$Q\+Map$>$}\newline
+{\ttfamily \#include $<$Q\+Dir$>$}\newline
+{\ttfamily \#include $<$Q\+File$>$}\newline
+{\ttfamily \#include $<$Q\+File\+Info$>$}\newline
+{\ttfamily \#include $<$Q\+Date\+Time$>$}\newline
+{\ttfamily \#include $<$Q\+String\+List$>$}\newline
+{\ttfamily \#include $<$Q\+Text\+Stream$>$}\newline
+{\ttfamily \#include $<$Q\+File\+System\+Watcher$>$}\newline
+{\ttfamily \#include $<$Q\+Debug$>$}\newline
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_m_t_unit_tests_compiler}{M\+T\+Unit\+Tests\+Compiler}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Scan all Test Files and generates the \mbox{\hyperlink{_m_t_unit_all_tests_8mqh}{M\+T\+Unit\+All\+Tests.\+mqh}} file. 
+
+\begin{DoxyAuthor}{Author}
+Rodrigo Haller 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+24/02/2018
+\end{DoxyDate}
+This class scan the Test folder looking for all included Test Suites and Test Cases. Then it writes a file called \mbox{\hyperlink{_m_t_unit_all_tests_8mqh}{M\+T\+Unit\+All\+Tests.\+mqh}} containing all basic declarations you would have had to write manually. There is also a Watcher that monitors the Test folder and trigger the start method whenever a change is made to that directory. \begin{DoxyNote}{Note}
+In order to use this class, the argument received by mt\+Unit\+Helper.\+exe must be\+: mt\+Unit\+Tests\+Compiler 
+
+This class can also be executed in Watcher mode, to enter this mode, do not pass any argument to my\+Unit\+Helper.\+exe 
+\end{DoxyNote}
+\begin{DoxyWarning}{Warning}
+In this case, the app will keep running until you close it. 
+\end{DoxyWarning}

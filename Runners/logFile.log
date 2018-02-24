@@ -1,0 +1,1138 @@
+RQ	0	19:01:03.374	Startup	MetaTester 5 x64 build 1755 (18 Jan 2018)
+GD	0	19:01:03.380	Server	MetaTester 5 started on 127.0.0.1:3000
+QO	0	19:01:03.382	Startup	initialization finished
+LM	0	19:01:03.391	127.0.0.1	login (build 1755)
+IK	0	19:01:03.401	Network	38520 bytes of account info loaded
+GL	0	19:01:03.401	Network	1482 bytes of tester parameters loaded
+LK	0	19:01:03.401	Network	3772 bytes of input parameters loaded
+HQ	0	19:01:03.401	Network	415 bytes of symbols list loaded
+JK	0	19:01:03.401	Tester	expert file added: Experts\Bumblebee\Experts\UnitTest_Test.ex5. 35631 bytes loaded
+MG	0	19:01:03.413	Tester	initial deposit 100000.00 USD, leverage 1:100
+RL	0	19:01:03.417	Tester	successfully initialized
+DJ	0	19:01:03.417	Network	36 Kb of total initialization data received
+HR	0	19:01:03.417	Tester	Intel Core i7-4500U  @ 1.80GHz, 16272 MB
+EG	0	19:01:03.616	Symbols	AUDCAD.m: symbol to be synchronized
+RS	0	19:01:03.616	Symbols	AUDCAD.m: symbol synchronized, 3544 bytes of symbol info received
+JI	0	19:01:03.616	History	AUDCAD.m: history synchronization started
+KR	0	19:01:03.619	History	AUDCAD.m: load 31 bytes of history data to synchronize in 0:00:00.000
+KL	0	19:01:03.619	History	AUDCAD.m: history synchronized from 2012.01.01 to 2018.02.01
+EF	0	19:01:03.813	History	AUDCAD.m,M1: history cache allocated for 407314 bars and contains 370189 bars from 2017.01.02 10:00 to 2017.12.29 23:58
+EO	0	19:01:03.840	History	AUDCAD.m,M1: history begins from 2017.01.02 10:00
+FD	0	19:01:03.843	Tester	AUDCAD.m,M1 (RoboForex-MetaTrader 5): 1 minutes OHLC ticks generating
+JS	0	19:01:03.843	Tester	AUDCAD.m,M1: testing of Experts\Bumblebee\Experts\UnitTest_Test.ex5 from 2018.01.01 00:00 to 2018.02.01 00:00 started with inputs:
+RD	0	19:01:03.843	Tester	  g_unit_testing=true
+OL	0	19:01:03.843	Tester	  g_unit_testing_OnInit=true
+RL	0	19:01:03.843	Tester	  g_unit_testing_OnLoop=false
+IG	0	19:01:03.843	Tester	  g_unit_testing_OnTick=false
+HO	0	19:01:03.843	Tester	  g_alert_when_failed=true
+JJ	0	19:01:03.843	Tester	  g_loop_ms=500
+RQ	0	19:01:03.843	Tester	  paramMAPeriod=13
+MQ	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest - start
+FS	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+HI	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+CK	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00      - Running new unit test
+[40m NS	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+[40m JG	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+ME	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - endTestCase
+[40m CH	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+RP	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+ME	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - Running new unit test
+[40m QQ	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - assertFalse should succeed[0m
+HQ	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - endTestCase
+[40m KO	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+MG	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+JD	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - Running new unit test
+[40m HF	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+GM	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - endTestCase
+[40m IM	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+CE	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+JN	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - Running new unit test
+[40m DJ	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+MR	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - endTestCase
+[40m IS	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+DI	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+PQ	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - Running new unit test
+[40m EF	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_05_float_assertEquals_succeed -     OK     - assertEquals with 2 floats should succeed[0m
+NO	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - endTestCase
+[40m RQ	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+KK	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+KR	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - Running new unit test
+[40m EQ	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMA_shoudReturnSMA -     OK     - MA must be SMA and 3 bars shifted[0m
+GE	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - endTestCase
+[40m GH	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+CK	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+FI	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - Running new unit test
+[40m KJ	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - MA array must contains a couple of SMA[0m
+HR	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA - endTestCase
+[40m KN	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+JK	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest summary
+JP	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+KM	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m FM	0	19:01:03.875	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+HN	0	19:01:04.062	Tester	final balance 100000.00 USD
+KG	0	19:01:04.062	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   UnitTest summary
+KP	0	19:01:04.062	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   ================
+QK	0	19:01:04.062	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m LH	0	19:01:04.062	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+CF	0	19:01:04.067	Tester	AUDCAD.m,M1: 122844 ticks, 30966 bars generated. Environment synchronized in 0:00:00.156. Test passed in 0:00:00.515 (including ticks preprocessing 0:00:00.016).
+LS	0	19:01:04.067	Tester	AUDCAD.m,M1: total time from login to stop testing 0:00:00.671 (including 0:00:00.156 for history data synchronization)
+II	0	19:01:04.067	Tester	331 Mb memory used including 23 Mb of history data, 64 Mb of tick data
+MM	0	19:01:04.067	Tester	log file "C:\Program Files\MetaTrader 5\Tester\Agent-127.0.0.1-3000\logs\20180210.log" written
+CM	3	19:01:06.333	Tester	close visual tester window
+EI	0	19:01:06.333	Tester	shutdown tester machine
+DO	0	19:01:06.392	Server	MetaTester 5 stopped
+FO	0	19:03:19.360	Startup	MetaTester 5 x64 build 1755 (18 Jan 2018)
+IJ	0	19:03:19.365	Server	MetaTester 5 started on 127.0.0.1:3000
+PQ	0	19:03:19.366	Startup	initialization finished
+LG	0	19:03:19.376	127.0.0.1	login (build 1755)
+HM	0	19:03:19.384	Network	38520 bytes of account info loaded
+JJ	0	19:03:19.384	Network	1482 bytes of tester parameters loaded
+MM	0	19:03:19.384	Network	3772 bytes of input parameters loaded
+IG	0	19:03:19.384	Network	415 bytes of symbols list loaded
+OM	0	19:03:19.384	Tester	expert file added: Experts\Bumblebee\Experts\UnitTest_Test.ex5. 35419 bytes loaded
+CM	0	19:03:19.386	Tester	initial deposit 100000.00 USD, leverage 1:100
+IF	0	19:03:19.389	Tester	successfully initialized
+CD	0	19:03:19.389	Network	36 Kb of total initialization data received
+OH	0	19:03:19.389	Tester	Intel Core i7-4500U  @ 1.80GHz, 16272 MB
+MM	0	19:03:19.437	Symbols	AUDCAD.m: symbol to be synchronized
+EI	0	19:03:19.438	Symbols	AUDCAD.m: symbol synchronized, 3544 bytes of symbol info received
+DQ	0	19:03:19.440	History	AUDCAD.m: load 31 bytes of history data to synchronize in 0:00:00.000
+HO	0	19:03:19.440	History	AUDCAD.m: history synchronized from 2012.01.01 to 2018.02.01
+CK	0	19:03:19.597	History	AUDCAD.m,M1: history cache allocated for 407314 bars and contains 370189 bars from 2017.01.02 10:00 to 2017.12.29 23:58
+RI	0	19:03:19.622	History	AUDCAD.m,M1: history begins from 2017.01.02 10:00
+RQ	0	19:03:19.624	Tester	AUDCAD.m,M1 (RoboForex-MetaTrader 5): 1 minutes OHLC ticks generating
+NN	0	19:03:19.624	Tester	AUDCAD.m,M1: testing of Experts\Bumblebee\Experts\UnitTest_Test.ex5 from 2018.01.01 00:00 to 2018.02.01 00:00 started with inputs:
+RQ	0	19:03:19.624	Tester	  g_unit_testing=true
+OI	0	19:03:19.624	Tester	  g_unit_testing_OnInit=true
+FN	0	19:03:19.624	Tester	  g_unit_testing_OnLoop=false
+MI	0	19:03:19.624	Tester	  g_unit_testing_OnTick=false
+LQ	0	19:03:19.624	Tester	  g_alert_when_failed=true
+JI	0	19:03:19.624	Tester	  g_loop_ms=500
+JG	0	19:03:19.624	Tester	  paramMAPeriod=13
+KL	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest - start
+DD	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+JK	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+EM	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00      - Running new unit test
+[40m LM	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+[40m HR	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+KH	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - endTestCase
+[40m IE	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+PR	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+KG	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - Running new unit test
+[40m CF	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - assertFalse should succeed[0m
+NN	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - endTestCase
+[40m QP	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+GJ	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+DR	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - Running new unit test
+[40m FS	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+MJ	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - endTestCase
+[40m GO	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+IG	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+LM	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - Running new unit test
+[40m FO	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+GE	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - endTestCase
+[40m KP	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+RJ	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+NS	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - Running new unit test
+[40m OS	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_05_float_assertEquals_succeed -     OK     - assertEquals with 2 floats should succeed[0m
+LI	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - endTestCase
+[40m PF	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+MN	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+ML	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - Running new unit test
+[40m CS	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMA_shoudReturnSMA -     OK     - MA must be SMA and 3 bars shifted[0m
+MP	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - endTestCase
+[40m EN	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+QH	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+HD	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - Running new unit test
+[40m QD	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - MA array must contains a couple of SMA[0m
+JP	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA - endTestCase
+[40m QL	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+HH	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest summary
+HN	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+MK	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m HK	0	19:03:19.649	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+II	0	19:03:19.715	Tester	final balance 100000.00 USD
+NR	0	19:03:19.715	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   UnitTest summary
+NR	0	19:03:19.715	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   ================
+PE	0	19:03:19.715	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m QF	0	19:03:19.715	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+MK	0	19:03:19.718	Tester	AUDCAD.m,M1: 122844 ticks, 30966 bars generated. Test passed in 0:00:00.327 (including ticks preprocessing 0:00:00.031).
+IF	0	19:03:19.718	Tester	291 Mb memory used including 23 Mb of history data, 64 Mb of tick data
+CK	0	19:03:19.718	Tester	log file "C:\Program Files\MetaTrader 5\Tester\Agent-127.0.0.1-3000\logs\20180210.log" written
+JF	0	19:03:49.940	127.0.0.1	login (build 1755)
+RK	3	19:03:49.977	127.0.0.1	MetaTester 5 forced to close
+QN	0	19:03:50.281	Server	MetaTester 5 stopped
+IE	0	19:06:01.402	Startup	MetaTester 5 x64 build 1755 (18 Jan 2018)
+KQ	0	19:06:01.408	Server	MetaTester 5 started on 127.0.0.1:3000
+HJ	0	19:06:01.409	Startup	initialization finished
+RQ	0	19:06:01.457	127.0.0.1	login (build 1755)
+MG	0	19:06:01.460	Network	38520 bytes of account info loaded
+CP	0	19:06:01.460	Network	1482 bytes of tester parameters loaded
+HG	0	19:06:01.460	Network	3772 bytes of input parameters loaded
+PM	0	19:06:01.460	Network	415 bytes of symbols list loaded
+HF	0	19:06:01.461	Tester	expert file added: Experts\Bumblebee\Experts\UnitTest_Test.ex5. 36149 bytes loaded
+ES	0	19:06:01.464	Tester	initial deposit 100000.00 USD, leverage 1:100
+MH	0	19:06:01.466	Tester	successfully initialized
+FM	0	19:06:01.466	Network	36 Kb of total initialization data received
+KG	0	19:06:01.466	Tester	Intel Core i7-4500U  @ 1.80GHz, 16272 MB
+KS	0	19:06:01.523	Symbols	AUDCAD.m: symbol to be synchronized
+IG	0	19:06:01.523	Symbols	AUDCAD.m: symbol synchronized, 3544 bytes of symbol info received
+HF	0	19:06:01.525	History	AUDCAD.m: load 31 bytes of history data to synchronize in 0:00:00.000
+HP	0	19:06:01.525	History	AUDCAD.m: history synchronized from 2012.01.01 to 2018.02.01
+GR	0	19:06:01.683	History	AUDCAD.m,M1: history cache allocated for 407314 bars and contains 370189 bars from 2017.01.02 10:00 to 2017.12.29 23:58
+NS	0	19:06:01.712	History	AUDCAD.m,M1: history begins from 2017.01.02 10:00
+PH	0	19:06:01.716	Tester	AUDCAD.m,M1 (RoboForex-MetaTrader 5): 1 minutes OHLC ticks generating
+LG	0	19:06:01.716	Tester	AUDCAD.m,M1: testing of Experts\Bumblebee\Experts\UnitTest_Test.ex5 from 2018.01.01 00:00 to 2018.02.01 00:00 started with inputs:
+LK	0	19:06:01.716	Tester	  g_unit_testing=true
+MO	0	19:06:01.716	Tester	  g_unit_testing_OnInit=true
+DH	0	19:06:01.716	Tester	  g_unit_testing_OnLoop=false
+KS	0	19:06:01.716	Tester	  g_unit_testing_OnTick=false
+NK	0	19:06:01.716	Tester	  g_alert_when_failed=true
+DF	0	19:06:01.716	Tester	  g_loop_ms=500
+DM	0	19:06:01.716	Tester	  paramMAPeriod=13
+DE	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest - start
+CN	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+QE	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+FG	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00      - Running new unit test
+[40m KG	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+[40m OK	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+LF	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - endTestCase
+[40m NL	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+GL	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+LQ	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - Running new unit test
+[40m PL	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - assertFalse should succeed[0m
+ID	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - endTestCase
+[40m FK	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+LD	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+OH	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - Running new unit test
+[40m QJ	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+JQ	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - endTestCase
+[40m PQ	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+NI	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+GJ	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - Running new unit test
+[40m EE	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+LN	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - endTestCase
+[40m HN	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+ED	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+IE	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - Running new unit test
+[40m DJ	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_05_float_assertEquals_succeed -     OK     - assertEquals with 2 floats should succeed[0m
+KS	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - endTestCase
+[40m OL	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+NH	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+FF	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - Running new unit test
+[40m DE	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMA_shoudReturnSMA -     OK     - MA must be SMA and 3 bars shifted[0m
+JI	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - endTestCase
+[40m RD	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+FO	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+KM	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - Running new unit test
+[40m FN	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - MA array must contains a couple of SMA[0m
+QN	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA - endTestCase
+[40m FR	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+GF	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest summary
+OD	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+NQ	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m KQ	0	19:06:01.743	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+OR	0	19:06:01.812	Tester	final balance 100000.00 USD
+LD	0	19:06:01.812	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   UnitTest summary
+DL	0	19:06:01.812	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   ================
+RO	0	19:06:01.812	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m CL	0	19:06:01.812	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+KR	0	19:06:01.815	Tester	AUDCAD.m,M1: 122844 ticks, 30966 bars generated. Test passed in 0:00:00.343 (including ticks preprocessing 0:00:00.031).
+JL	0	19:06:01.815	Tester	287 Mb memory used including 23 Mb of history data, 64 Mb of tick data
+CQ	0	19:06:01.815	Tester	log file "C:\Program Files\MetaTrader 5\Tester\Agent-127.0.0.1-3000\logs\20180210.log" written
+NH	0	19:06:05.273	127.0.0.1	login (build 1755)
+PQ	3	19:06:05.279	127.0.0.1	MetaTester 5 forced to close
+KE	0	19:06:05.570	Server	MetaTester 5 stopped
+GS	0	19:06:22.175	Startup	MetaTester 5 x64 build 1755 (18 Jan 2018)
+JG	0	19:06:22.181	Server	MetaTester 5 started on 127.0.0.1:3000
+OL	0	19:06:22.182	Startup	initialization finished
+NH	0	19:06:22.191	127.0.0.1	login (build 1755)
+EN	0	19:06:22.199	Network	38520 bytes of account info loaded
+KN	0	19:06:22.199	Network	1482 bytes of tester parameters loaded
+PN	0	19:06:22.199	Network	3772 bytes of input parameters loaded
+DD	0	19:06:22.199	Network	415 bytes of symbols list loaded
+IH	0	19:06:22.199	Tester	expert file added: Experts\Bumblebee\Experts\UnitTest_Test.ex5. 35357 bytes loaded
+CH	0	19:06:22.203	Tester	initial deposit 100000.00 USD, leverage 1:100
+EQ	0	19:06:22.205	Tester	successfully initialized
+EG	0	19:06:22.205	Network	35 Kb of total initialization data received
+FM	0	19:06:22.206	Tester	Intel Core i7-4500U  @ 1.80GHz, 16272 MB
+NI	0	19:06:22.257	Symbols	AUDCAD.m: symbol to be synchronized
+IM	0	19:06:22.257	Symbols	AUDCAD.m: symbol synchronized, 3544 bytes of symbol info received
+GL	0	19:06:22.260	History	AUDCAD.m: load 31 bytes of history data to synchronize in 0:00:00.000
+KJ	0	19:06:22.260	History	AUDCAD.m: history synchronized from 2012.01.01 to 2018.02.01
+EH	0	19:06:22.426	History	AUDCAD.m,M1: history cache allocated for 407314 bars and contains 370189 bars from 2017.01.02 10:00 to 2017.12.29 23:58
+OE	0	19:06:22.455	History	AUDCAD.m,M1: history begins from 2017.01.02 10:00
+QR	0	19:06:22.459	Tester	AUDCAD.m,M1 (RoboForex-MetaTrader 5): 1 minutes OHLC ticks generating
+MM	0	19:06:22.459	Tester	AUDCAD.m,M1: testing of Experts\Bumblebee\Experts\UnitTest_Test.ex5 from 2018.01.01 00:00 to 2018.02.01 00:00 started with inputs:
+QR	0	19:06:22.459	Tester	  g_unit_testing=true
+PF	0	19:06:22.459	Tester	  g_unit_testing_OnInit=true
+ES	0	19:06:22.459	Tester	  g_unit_testing_OnLoop=false
+NJ	0	19:06:22.459	Tester	  g_unit_testing_OnTick=false
+KD	0	19:06:22.459	Tester	  g_alert_when_failed=true
+IL	0	19:06:22.459	Tester	  g_loop_ms=500
+QK	0	19:06:22.459	Tester	  paramMAPeriod=13
+CO	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest - start
+DI	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+RL	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+EQ	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00      - Running new unit test
+[40m LI	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+[40m PM	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+KO	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - endTestCase
+[40m IR	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+HG	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+KK	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - Running new unit test
+[40m KK	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - assertFalse should succeed[0m
+FK	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - endTestCase
+[40m QE	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+OM	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+DN	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - Running new unit test
+[40m FP	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+EG	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - endTestCase
+[40m OJ	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+IS	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+DP	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - Running new unit test
+[40m FL	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+OH	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - endTestCase
+[40m CE	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+JO	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+NO	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - Running new unit test
+[40m GP	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_05_float_assertEquals_succeed -     OK     - assertEquals with 2 floats should succeed[0m
+LE	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - endTestCase
+[40m PK	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+MQ	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+EI	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - Running new unit test
+[40m CO	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMA_shoudReturnSMA -     OK     - MA must be SMA and 3 bars shifted[0m
+ES	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - endTestCase
+[40m ER	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+IE	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+HS	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - Running new unit test
+[40m QP	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - MA array must contains a couple of SMA[0m
+RE	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA - endTestCase
+[40m QH	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+HM	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest summary
+PM	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+MG	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m HG	0	19:06:22.486	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+PD	0	19:06:22.562	Tester	final balance 100000.00 USD
+KM	0	19:06:22.562	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   UnitTest summary
+CG	0	19:06:22.562	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   ================
+QQ	0	19:06:22.562	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m PR	0	19:06:22.562	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+GH	0	19:06:22.566	Tester	AUDCAD.m,M1: 122844 ticks, 30966 bars generated. Test passed in 0:00:00.359 (including ticks preprocessing 0:00:00.016).
+HJ	0	19:06:22.566	Tester	291 Mb memory used including 23 Mb of history data, 64 Mb of tick data
+JN	0	19:06:22.566	Tester	log file "C:\Program Files\MetaTrader 5\Tester\Agent-127.0.0.1-3000\logs\20180210.log" written
+CQ	0	19:06:22.754	127.0.0.1	login (build 1755)
+NH	3	19:06:22.760	127.0.0.1	MetaTester 5 forced to close
+OS	0	19:06:23.051	Server	MetaTester 5 stopped
+OH	0	19:07:16.362	Startup	MetaTester 5 x64 build 1755 (18 Jan 2018)
+OM	0	19:07:16.366	Server	MetaTester 5 started on 127.0.0.1:3000
+LE	0	19:07:16.367	Startup	initialization finished
+CR	0	19:07:16.376	127.0.0.1	login (build 1755)
+OP	0	19:07:16.384	Network	38520 bytes of account info loaded
+QG	0	19:07:16.384	Network	1482 bytes of tester parameters loaded
+FP	0	19:07:16.384	Network	3772 bytes of input parameters loaded
+FJ	0	19:07:16.384	Network	415 bytes of symbols list loaded
+MQ	0	19:07:16.384	Tester	expert file added: Experts\Bumblebee\Experts\UnitTest_Test.ex5. 35483 bytes loaded
+MN	0	19:07:16.386	Tester	initial deposit 100000.00 USD, leverage 1:100
+RK	0	19:07:16.389	Tester	successfully initialized
+IP	0	19:07:16.389	Network	36 Kb of total initialization data received
+HK	0	19:07:16.389	Tester	Intel Core i7-4500U  @ 1.80GHz, 16272 MB
+LP	0	19:07:16.439	Symbols	AUDCAD.m: symbol to be synchronized
+LD	0	19:07:16.439	Symbols	AUDCAD.m: symbol synchronized, 3544 bytes of symbol info received
+PR	0	19:07:16.441	History	AUDCAD.m: load 31 bytes of history data to synchronize in 0:00:00.000
+PL	0	19:07:16.441	History	AUDCAD.m: history synchronized from 2012.01.01 to 2018.02.01
+CF	0	19:07:16.615	History	AUDCAD.m,M1: history cache allocated for 407314 bars and contains 370189 bars from 2017.01.02 10:00 to 2017.12.29 23:58
+DN	0	19:07:16.647	History	AUDCAD.m,M1: history begins from 2017.01.02 10:00
+GD	0	19:07:16.651	Tester	AUDCAD.m,M1 (RoboForex-MetaTrader 5): 1 minutes OHLC ticks generating
+CS	0	19:07:16.651	Tester	AUDCAD.m,M1: testing of Experts\Bumblebee\Experts\UnitTest_Test.ex5 from 2018.01.01 00:00 to 2018.02.01 00:00 started with inputs:
+KD	0	19:07:16.651	Tester	  g_unit_testing=true
+NL	0	19:07:16.651	Tester	  g_unit_testing_OnInit=true
+KM	0	19:07:16.651	Tester	  g_unit_testing_OnLoop=false
+DD	0	19:07:16.651	Tester	  g_unit_testing_OnTick=false
+EN	0	19:07:16.651	Tester	  g_alert_when_failed=true
+CE	0	19:07:16.651	Tester	  g_loop_ms=500
+KP	0	19:07:16.651	Tester	  paramMAPeriod=13
+QQ	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest - start
+JS	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+DF	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+GJ	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00      - Running new unit test
+[40m RR	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+[40m FG	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+QE	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - endTestCase
+[40m GH	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+NQ	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+QR	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - Running new unit test
+[40m MQ	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - assertFalse should succeed[0m
+DQ	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - endTestCase
+[40m OO	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+QG	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+FE	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - Running new unit test
+[40m DF	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+CN	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - endTestCase
+[40m EL	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+GD	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+FI	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - Running new unit test
+[40m HJ	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+QQ	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - endTestCase
+[40m ES	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+HI	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+LF	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - Running new unit test
+[40m IG	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_05_float_assertEquals_succeed -     OK     - assertEquals with 2 floats should succeed[0m
+RN	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - endTestCase
+[40m NQ	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+[40m OK	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test[0m
+OS	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - Running new unit test
+[40m IP	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMA_shoudReturnSMA -     OK     - MA must be SMA and 3 bars shifted[0m
+CD	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - endTestCase
+[40m CK	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+GL	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+JI	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - Running new unit test
+[40m OK	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - MA array must contains a couple of SMA[0m
+DS	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA - endTestCase
+[40m OQ	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+FK	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest summary
+FS	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+OL	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m JL	0	19:07:16.675	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+LN	0	19:07:16.757	Tester	final balance 100000.00 USD
+GG	0	19:07:16.757	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   UnitTest summary
+GQ	0	19:07:16.757	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   ================
+EH	0	19:07:16.757	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m HK	0	19:07:16.757	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+MF	0	19:07:16.761	Tester	AUDCAD.m,M1: 122844 ticks, 30966 bars generated. Test passed in 0:00:00.375 (including ticks preprocessing 0:00:00.031).
+EQ	0	19:07:16.761	Tester	291 Mb memory used including 23 Mb of history data, 64 Mb of tick data
+JD	0	19:07:16.761	Tester	log file "C:\Program Files\MetaTrader 5\Tester\Agent-127.0.0.1-3000\logs\20180210.log" written
+QK	0	19:07:17.072	127.0.0.1	login (build 1755)
+KN	3	19:07:17.078	127.0.0.1	MetaTester 5 forced to close
+LI	0	19:07:17.368	Server	MetaTester 5 stopped
+PF	0	19:09:02.829	Startup	MetaTester 5 x64 build 1755 (18 Jan 2018)
+DD	0	19:09:02.834	Server	MetaTester 5 started on 127.0.0.1:3000
+KO	0	19:09:02.835	Startup	initialization finished
+NL	0	19:09:02.844	127.0.0.1	login (build 1755)
+QJ	0	19:09:02.851	Network	38520 bytes of account info loaded
+OM	0	19:09:02.851	Network	1482 bytes of tester parameters loaded
+DJ	0	19:09:02.851	Network	3772 bytes of input parameters loaded
+QP	0	19:09:02.852	Network	415 bytes of symbols list loaded
+QK	0	19:09:02.852	Tester	expert file added: Experts\Bumblebee\Experts\UnitTest_Test.ex5. 35879 bytes loaded
+IG	0	19:09:02.854	Tester	initial deposit 100000.00 USD, leverage 1:100
+IL	0	19:09:02.857	Tester	successfully initialized
+MJ	0	19:09:02.857	Network	36 Kb of total initialization data received
+OR	0	19:09:02.857	Tester	Intel Core i7-4500U  @ 1.80GHz, 16272 MB
+MF	0	19:09:02.910	Symbols	AUDCAD.m: symbol to be synchronized
+MR	0	19:09:02.911	Symbols	AUDCAD.m: symbol synchronized, 3544 bytes of symbol info received
+EK	0	19:09:02.913	History	AUDCAD.m: load 31 bytes of history data to synchronize in 0:00:00.000
+IE	0	19:09:02.913	History	AUDCAD.m: history synchronized from 2012.01.01 to 2018.02.01
+CM	0	19:09:03.075	History	AUDCAD.m,M1: history cache allocated for 407314 bars and contains 370189 bars from 2017.01.02 10:00 to 2017.12.29 23:58
+FP	0	19:09:03.102	History	AUDCAD.m,M1: history begins from 2017.01.02 10:00
+EO	0	19:09:03.105	Tester	AUDCAD.m,M1 (RoboForex-MetaTrader 5): 1 minutes OHLC ticks generating
+IH	0	19:09:03.105	Tester	AUDCAD.m,M1: testing of Experts\Bumblebee\Experts\UnitTest_Test.ex5 from 2018.01.01 00:00 to 2018.02.01 00:00 started with inputs:
+EN	0	19:09:03.105	Tester	  g_unit_testing=true
+DR	0	19:09:03.105	Tester	  g_unit_testing_OnInit=true
+QG	0	19:09:03.105	Tester	  g_unit_testing_OnLoop=false
+JN	0	19:09:03.105	Tester	  g_unit_testing_OnTick=false
+GH	0	19:09:03.105	Tester	  g_alert_when_failed=true
+MS	0	19:09:03.105	Tester	  g_loop_ms=500
+MN	0	19:09:03.105	Tester	  paramMAPeriod=13
+CJ	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest - start
+LJ	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+RP	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+MD	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00      - Running new unit test
+[40m DD	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+[40m PH	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+CR	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - endTestCase
+[40m QO	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+HK	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+CL	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - Running new unit test
+[40m KO	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - assertFalse should succeed[0m
+FG	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - endTestCase
+[40m IF	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+OQ	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+LK	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - Running new unit test
+[40m NM	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+ED	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - endTestCase
+[40m OF	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+QN	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+DG	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - Running new unit test
+[40m NQ	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+[40m OK	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - endTestCase[0m
+[40m CI	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+JS	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+FH	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - Running new unit test
+[40m GM	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_05_float_assertEquals_succeed -     OK     - assertEquals with 2 floats should succeed[0m
+DP	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - endTestCase
+[40m HH	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+ED	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+EE	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - Running new unit test
+[40m KJ	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMA_shoudReturnSMA -     OK     - MA must be SMA and 3 bars shifted[0m
+EN	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - endTestCase
+[40m MQ	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+IR	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+PN	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - Running new unit test
+[40m IM	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - MA array must contains a couple of SMA[0m
+RI	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA - endTestCase
+[40m IG	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+PR	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest summary
+PI	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+ER	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m PR	0	19:09:03.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+LG	0	19:09:03.207	Tester	final balance 100000.00 USD
+GH	0	19:09:03.207	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   UnitTest summary
+GK	0	19:09:03.207	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   ================
+ER	0	19:09:03.207	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m DQ	0	19:09:03.207	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+NM	0	19:09:03.212	Tester	AUDCAD.m,M1: 122844 ticks, 30966 bars generated. Test passed in 0:00:00.343 (including ticks preprocessing 0:00:00.016).
+EO	0	19:09:03.212	Tester	291 Mb memory used including 23 Mb of history data, 64 Mb of tick data
+FR	0	19:09:03.212	Tester	log file "C:\Program Files\MetaTrader 5\Tester\Agent-127.0.0.1-3000\logs\20180210.log" written
+IM	0	19:09:03.563	127.0.0.1	login (build 1755)
+MD	3	19:09:03.572	127.0.0.1	MetaTester 5 forced to close
+QP	0	19:09:03.861	Server	MetaTester 5 stopped
+MO	0	19:10:58.955	Startup	MetaTester 5 x64 build 1755 (18 Jan 2018)
+KJ	0	19:10:58.960	Server	MetaTester 5 started on 127.0.0.1:3000
+JQ	0	19:10:58.963	Startup	initialization finished
+JG	0	19:10:58.973	127.0.0.1	login (build 1755)
+MM	0	19:10:58.980	Network	38520 bytes of account info loaded
+CK	0	19:10:58.980	Network	1482 bytes of tester parameters loaded
+HM	0	19:10:58.980	Network	3772 bytes of input parameters loaded
+OG	0	19:10:58.981	Network	415 bytes of symbols list loaded
+OM	0	19:10:58.981	Tester	expert file added: Experts\Bumblebee\Experts\UnitTest_Test.ex5. 35547 bytes loaded
+OM	0	19:10:58.983	Tester	initial deposit 100000.00 USD, leverage 1:100
+MF	0	19:10:58.986	Tester	successfully initialized
+MD	0	19:10:58.986	Network	36 Kb of total initialization data received
+KH	0	19:10:58.986	Tester	Intel Core i7-4500U  @ 1.80GHz, 16272 MB
+GM	0	19:10:59.039	Symbols	AUDCAD.m: symbol to be synchronized
+MH	0	19:10:59.040	Symbols	AUDCAD.m: symbol synchronized, 3544 bytes of symbol info received
+FQ	0	19:10:59.042	History	AUDCAD.m: load 31 bytes of history data to synchronize in 0:00:00.000
+FO	0	19:10:59.042	History	AUDCAD.m: history synchronized from 2012.01.01 to 2018.02.01
+HK	0	19:10:59.196	History	AUDCAD.m,M1: history cache allocated for 407314 bars and contains 370189 bars from 2017.01.02 10:00 to 2017.12.29 23:58
+LI	0	19:10:59.224	History	AUDCAD.m,M1: history begins from 2017.01.02 10:00
+KQ	0	19:10:59.227	Tester	AUDCAD.m,M1 (RoboForex-MetaTrader 5): 1 minutes OHLC ticks generating
+FN	0	19:10:59.228	Tester	AUDCAD.m,M1: testing of Experts\Bumblebee\Experts\UnitTest_Test.ex5 from 2018.01.01 00:00 to 2018.02.01 00:00 started with inputs:
+FQ	0	19:10:59.228	Tester	  g_unit_testing=true
+CI	0	19:10:59.228	Tester	  g_unit_testing_OnInit=true
+NN	0	19:10:59.228	Tester	  g_unit_testing_OnLoop=false
+EI	0	19:10:59.228	Tester	  g_unit_testing_OnTick=false
+DQ	0	19:10:59.228	Tester	  g_alert_when_failed=true
+NI	0	19:10:59.228	Tester	  g_loop_ms=500
+NG	0	19:10:59.228	Tester	  paramMAPeriod=13
+HL	0	19:10:59.251	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest - start
+JD	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+LK	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+GN	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00      - Running new unit test
+[40m RN	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+[40m NR	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+QH	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - endTestCase
+[40m OE	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+FR	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+QF	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - Running new unit test
+[40m MF	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - assertFalse should succeed[0m
+DN	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - endTestCase
+[40m GP	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+QJ	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+NR	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - Running new unit test
+[40m LS	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+CJ	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - endTestCase
+[40m MO	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+OG	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+FM	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - Running new unit test
+[40m HO	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+QE	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - endTestCase
+[40m EP	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+HJ	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+DS	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - Running new unit test
+[40m IS	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_05_float_assertEquals_succeed -     OK     - assertEquals with 2 floats should succeed[0m
+RJ	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - endTestCase
+[40m NF	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+ON	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+GL	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - Running new unit test
+[40m IL	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMA_shoudReturnSMA -     OK     - MA must be SMA and 3 bars shifted[0m
+CP	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - endTestCase
+[40m KN	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+GH	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+RD	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - Running new unit test
+[40m GD	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - MA array must contains a couple of SMA[0m
+LP	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA - endTestCase
+[40m GL	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+FH	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest summary
+NN	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+OH	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m RK	0	19:10:59.252	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+CI	0	19:10:59.324	Tester	final balance 100000.00 USD
+HR	0	19:10:59.324	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   UnitTest summary
+PR	0	19:10:59.324	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   ================
+FD	0	19:10:59.324	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m OF	0	19:10:59.324	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+CK	0	19:10:59.327	Tester	AUDCAD.m,M1: 122844 ticks, 30966 bars generated. Test passed in 0:00:00.343 (including ticks preprocessing 0:00:00.031).
+KF	0	19:10:59.327	Tester	291 Mb memory used including 23 Mb of history data, 64 Mb of tick data
+KK	0	19:10:59.327	Tester	log file "C:\Program Files\MetaTrader 5\Tester\Agent-127.0.0.1-3000\logs\20180210.log" written
+FF	0	19:10:59.594	127.0.0.1	login (build 1755)
+FK	3	19:10:59.602	127.0.0.1	MetaTester 5 forced to close
+QN	0	19:10:59.893	Server	MetaTester 5 stopped
+QE	0	19:11:34.167	Startup	MetaTester 5 x64 build 1755 (18 Jan 2018)
+FQ	0	19:11:34.173	Server	MetaTester 5 started on 127.0.0.1:3000
+NJ	0	19:11:34.173	Startup	initialization finished
+FQ	0	19:11:34.190	127.0.0.1	login (build 1755)
+MG	0	19:11:34.198	Network	38520 bytes of account info loaded
+CP	0	19:11:34.198	Network	1482 bytes of tester parameters loaded
+HG	0	19:11:34.198	Network	3772 bytes of input parameters loaded
+LM	0	19:11:34.198	Network	415 bytes of symbols list loaded
+MF	0	19:11:34.198	Tester	expert file added: Experts\Bumblebee\Experts\UnitTest_Test.ex5. 35665 bytes loaded
+RS	0	19:11:34.201	Tester	initial deposit 100000.00 USD, leverage 1:100
+MH	0	19:11:34.204	Tester	successfully initialized
+PM	0	19:11:34.204	Network	36 Kb of total initialization data received
+KG	0	19:11:34.204	Tester	Intel Core i7-4500U  @ 1.80GHz, 16272 MB
+OS	0	19:11:34.259	Symbols	AUDCAD.m: symbol to be synchronized
+CG	0	19:11:34.259	Symbols	AUDCAD.m: symbol synchronized, 3544 bytes of symbol info received
+RG	0	19:11:34.262	History	AUDCAD.m: load 31 bytes of history data to synchronize in 0:00:00.000
+FP	0	19:11:34.262	History	AUDCAD.m: history synchronized from 2012.01.01 to 2018.02.01
+KR	0	19:11:34.434	History	AUDCAD.m,M1: history cache allocated for 407314 bars and contains 370189 bars from 2017.01.02 10:00 to 2017.12.29 23:58
+IS	0	19:11:34.465	History	AUDCAD.m,M1: history begins from 2017.01.02 10:00
+GH	0	19:11:34.469	Tester	AUDCAD.m,M1 (RoboForex-MetaTrader 5): 1 minutes OHLC ticks generating
+CG	0	19:11:34.469	Tester	AUDCAD.m,M1: testing of Experts\Bumblebee\Experts\UnitTest_Test.ex5 from 2018.01.01 00:00 to 2018.02.01 00:00 started with inputs:
+GK	0	19:11:34.469	Tester	  g_unit_testing=true
+JO	0	19:11:34.469	Tester	  g_unit_testing_OnInit=true
+KH	0	19:11:34.469	Tester	  g_unit_testing_OnLoop=false
+DS	0	19:11:34.469	Tester	  g_unit_testing_OnTick=false
+EK	0	19:11:34.469	Tester	  g_alert_when_failed=true
+OF	0	19:11:34.469	Tester	  g_loop_ms=500
+GM	0	19:11:34.469	Tester	  paramMAPeriod=13
+ME	0	19:11:34.494	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest - start
+NN	0	19:11:34.494	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+HE	0	19:11:34.494	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+KG	0	19:11:34.494	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00      - Running new unit test
+[40m FG	0	19:11:34.494	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+[40m JK	0	19:11:34.494	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+EF	0	19:11:34.494	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - endTestCase
+[40m PK	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+QL	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+FQ	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - Running new unit test
+[40m FL	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - assertFalse should succeed[0m
+KD	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - endTestCase
+[40m HJ	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+JD	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+MH	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - Running new unit test
+[40m KI	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+LQ	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - endTestCase
+[40m JQ	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+PI	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+MJ	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - Running new unit test
+[40m KE	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+JN	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - endTestCase
+[40m NN	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+OD	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+CE	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - Running new unit test
+[40m RJ	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_05_float_assertEquals_succeed -     OK     - assertEquals with 2 floats should succeed[0m
+ES	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - endTestCase
+[40m IL	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+DH	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+LF	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - Running new unit test
+[40m NE	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMA_shoudReturnSMA -     OK     - MA must be SMA and 3 bars shifted[0m
+LI	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - endTestCase
+[40m LD	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+PO	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+QJ	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - Running new unit test
+[40m HN	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - MA array must contains a couple of SMA[0m
+GN	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA - endTestCase
+[40m HR	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+QF	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest summary
+ID	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+DQ	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m QQ	0	19:11:34.495	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+FR	0	19:11:34.565	Tester	final balance 100000.00 USD
+ID	0	19:11:34.565	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   UnitTest summary
+QL	0	19:11:34.565	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   ================
+CO	0	19:11:34.565	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m FL	0	19:11:34.565	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+DR	0	19:11:34.569	Tester	AUDCAD.m,M1: 122844 ticks, 30966 bars generated. Environment synchronized in 0:00:00.031. Test passed in 0:00:00.359 (including ticks preprocessing 0:00:00.016).
+OG	0	19:11:34.569	Tester	AUDCAD.m,M1: total time from login to stop testing 0:00:00.390 (including 0:00:00.031 for history data synchronization)
+PJ	0	19:11:34.569	Tester	287 Mb memory used including 23 Mb of history data, 64 Mb of tick data
+LN	0	19:11:34.569	Tester	log file "C:\Program Files\MetaTrader 5\Tester\Agent-127.0.0.1-3000\logs\20180210.log" written
+MP	0	19:11:34.906	127.0.0.1	login (build 1755)
+EI	3	19:11:34.913	127.0.0.1	MetaTester 5 forced to close
+PL	0	19:11:35.204	Server	MetaTester 5 stopped
+FK	0	19:12:36.833	Startup	MetaTester 5 x64 build 1755 (18 Jan 2018)
+KN	0	19:12:36.838	Server	MetaTester 5 started on 127.0.0.1:3000
+QE	0	19:12:36.841	Startup	initialization finished
+FS	0	19:12:36.849	127.0.0.1	login (build 1755)
+EQ	0	19:12:36.858	Network	38520 bytes of account info loaded
+CF	0	19:12:36.858	Network	1482 bytes of tester parameters loaded
+PQ	0	19:12:36.858	Network	3772 bytes of input parameters loaded
+CK	0	19:12:36.859	Network	415 bytes of symbols list loaded
+DQ	0	19:12:36.859	Tester	expert file added: Experts\Bumblebee\Experts\UnitTest_Test.ex5. 36361 bytes loaded
+JQ	0	19:12:36.862	Tester	initial deposit 100000.00 USD, leverage 1:100
+EJ	0	19:12:36.865	Tester	successfully initialized
+RP	0	19:12:36.865	Network	36 Kb of total initialization data received
+KD	0	19:12:36.865	Tester	Intel Core i7-4500U  @ 1.80GHz, 16272 MB
+PQ	0	19:12:36.930	Symbols	AUDCAD.m: symbol to be synchronized
+HE	0	19:12:36.930	Symbols	AUDCAD.m: symbol synchronized, 3544 bytes of symbol info received
+GE	0	19:12:36.932	History	AUDCAD.m: load 31 bytes of history data to synchronize in 0:00:00.000
+CS	0	19:12:36.932	History	AUDCAD.m: history synchronized from 2012.01.01 to 2018.02.01
+CG	0	19:12:37.124	History	AUDCAD.m,M1: history cache allocated for 407314 bars and contains 370189 bars from 2017.01.02 10:00 to 2017.12.29 23:58
+FM	0	19:12:37.152	History	AUDCAD.m,M1: history begins from 2017.01.02 10:00
+DE	0	19:12:37.156	Tester	AUDCAD.m,M1 (RoboForex-MetaTrader 5): 1 minutes OHLC ticks generating
+HR	0	19:12:37.156	Tester	AUDCAD.m,M1: testing of Experts\Bumblebee\Experts\UnitTest_Test.ex5 from 2018.01.01 00:00 to 2018.02.01 00:00 started with inputs:
+DE	0	19:12:37.156	Tester	  g_unit_testing=true
+EM	0	19:12:37.156	Tester	  g_unit_testing_OnInit=true
+PJ	0	19:12:37.156	Tester	  g_unit_testing_OnLoop=false
+GE	0	19:12:37.156	Tester	  g_unit_testing_OnTick=false
+JM	0	19:12:37.156	Tester	  g_alert_when_failed=true
+LE	0	19:12:37.156	Tester	  g_loop_ms=500
+LS	0	19:12:37.156	Tester	  paramMAPeriod=13
+GP	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest - start
+PP	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+NG	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+QI	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00      - Running new unit test
+[40m HQ	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+[40m LF	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+GD	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - endTestCase
+[40m MI	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+DN	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+GS	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - Running new unit test
+[40m OR	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - assertFalse should succeed[0m
+JR	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - endTestCase
+[40m EL	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+KF	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+PF	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - Running new unit test
+[40m RG	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+IN	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - endTestCase
+[40m KS	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+MK	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+HI	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - Running new unit test
+[40m RK	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+KQ	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - endTestCase
+[40m GL	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+FF	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+JG	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - Running new unit test
+[40m CG	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_05_float_assertEquals_succeed -     OK     - assertEquals with 2 floats should succeed[0m
+HM	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - endTestCase
+[40m DR	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+IJ	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+IP	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - Running new unit test
+[40m OG	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMA_shoudReturnSMA -     OK     - MA must be SMA and 3 bars shifted[0m
+ID	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - endTestCase
+[40m QJ	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+EL	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+LH	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - Running new unit test
+[40m EH	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - MA array must contains a couple of SMA[0m
+NL	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA - endTestCase
+[40m EP	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+LD	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest summary
+LR	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+IO	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m LO	0	19:12:37.182	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+PM	0	19:12:37.253	Tester	final balance 100000.00 USD
+CF	0	19:12:37.253	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   UnitTest summary
+CN	0	19:12:37.253	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   ================
+II	0	19:12:37.253	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m HJ	0	19:12:37.253	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+EG	0	19:12:37.257	Tester	AUDCAD.m,M1: 122844 ticks, 30966 bars generated. Test passed in 0:00:00.390 (including ticks preprocessing 0:00:00.015).
+RR	0	19:12:37.257	Tester	287 Mb memory used including 23 Mb of history data, 64 Mb of tick data
+GG	0	19:12:37.257	Tester	log file "C:\Program Files\MetaTrader 5\Tester\Agent-127.0.0.1-3000\logs\20180210.log" written
+MJ	0	19:12:37.393	127.0.0.1	login (build 1755)
+MO	3	19:12:37.401	127.0.0.1	MetaTester 5 forced to close
+MJ	0	19:12:37.691	Server	MetaTester 5 stopped
+KQ	0	19:12:48.055	Startup	MetaTester 5 x64 build 1755 (18 Jan 2018)
+KE	0	19:12:48.062	Server	MetaTester 5 started on 127.0.0.1:3000
+GN	0	19:12:48.062	Startup	initialization finished
+EM	0	19:12:48.074	127.0.0.1	login (build 1755)
+MK	0	19:12:48.082	Network	38520 bytes of account info loaded
+CL	0	19:12:48.082	Network	1482 bytes of tester parameters loaded
+HK	0	19:12:48.082	Network	3772 bytes of input parameters loaded
+OQ	0	19:12:48.083	Network	415 bytes of symbols list loaded
+KJ	0	19:12:48.083	Tester	expert file added: Experts\Bumblebee\Experts\UnitTest_Test.ex5. 35727 bytes loaded
+RG	0	19:12:48.086	Tester	initial deposit 100000.00 USD, leverage 1:100
+JL	0	19:12:48.089	Tester	successfully initialized
+FI	0	19:12:48.089	Network	36 Kb of total initialization data received
+HS	0	19:12:48.089	Tester	Intel Core i7-4500U  @ 1.80GHz, 16272 MB
+GG	0	19:12:48.145	Symbols	AUDCAD.m: symbol to be synchronized
+ES	0	19:12:48.145	Symbols	AUDCAD.m: symbol synchronized, 3544 bytes of symbol info received
+PJ	0	19:12:48.147	History	AUDCAD.m: load 31 bytes of history data to synchronize in 0:00:00.000
+PD	0	19:12:48.147	History	AUDCAD.m: history synchronized from 2012.01.01 to 2018.02.01
+HN	0	19:12:48.307	History	AUDCAD.m,M1: history cache allocated for 407314 bars and contains 370189 bars from 2017.01.02 10:00 to 2017.12.29 23:58
+CG	0	19:12:48.337	History	AUDCAD.m,M1: history begins from 2017.01.02 10:00
+EL	0	19:12:48.340	Tester	AUDCAD.m,M1 (RoboForex-MetaTrader 5): 1 minutes OHLC ticks generating
+JK	0	19:12:48.341	Tester	AUDCAD.m,M1: testing of Experts\Bumblebee\Experts\UnitTest_Test.ex5 from 2018.01.01 00:00 to 2018.02.01 00:00 started with inputs:
+JO	0	19:12:48.341	Tester	  g_unit_testing=true
+GS	0	19:12:48.341	Tester	  g_unit_testing_OnInit=true
+RD	0	19:12:48.341	Tester	  g_unit_testing_OnLoop=false
+IO	0	19:12:48.341	Tester	  g_unit_testing_OnTick=false
+HG	0	19:12:48.341	Tester	  g_alert_when_failed=true
+RR	0	19:12:48.341	Tester	  g_loop_ms=500
+RI	0	19:12:48.341	Tester	  paramMAPeriod=13
+KI	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest - start
+LJ	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+JQ	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+MS	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00      - Running new unit test
+[40m DK	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+[40m HO	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+CR	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - endTestCase
+[40m EP	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+PH	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+CM	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - Running new unit test
+[40m GH	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - assertFalse should succeed[0m
+RH	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - endTestCase
+[40m MG	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+CP	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+HL	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - Running new unit test
+[40m JN	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+QE	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - endTestCase
+[40m GE	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+EM	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+PF	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - Running new unit test
+[40m NQ	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+CJ	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - endTestCase
+[40m OJ	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+NP	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+RI	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - Running new unit test
+[40m KN	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_05_float_assertEquals_succeed -     OK     - assertEquals with 2 floats should succeed[0m
+DG	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - endTestCase
+[40m HH	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+ED	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+MJ	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - Running new unit test
+[40m KI	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMA_shoudReturnSMA -     OK     - MA must be SMA and 3 bars shifted[0m
+QM	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - endTestCase
+[40m IP	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+MS	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+DQ	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - Running new unit test
+[40m MR	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - MA array must contains a couple of SMA[0m
+JJ	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA - endTestCase
+[40m MF	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+PR	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest summary
+HH	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+EE	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m DE	0	19:12:48.364	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+DF	0	19:12:48.439	Tester	final balance 100000.00 USD
+GH	0	19:12:48.439	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   UnitTest summary
+OH	0	19:12:48.439	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   ================
+ES	0	19:12:48.439	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m PP	0	19:12:48.439	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+ON	0	19:12:48.443	Tester	AUDCAD.m,M1: 122844 ticks, 30966 bars generated. Test passed in 0:00:00.343 (including ticks preprocessing 0:00:00.032).
+CH	0	19:12:48.443	Tester	287 Mb memory used including 23 Mb of history data, 64 Mb of tick data
+GM	0	19:12:48.443	Tester	log file "C:\Program Files\MetaTrader 5\Tester\Agent-127.0.0.1-3000\logs\20180210.log" written
+DL	0	19:12:48.617	127.0.0.1	login (build 1755)
+PE	3	19:12:48.624	127.0.0.1	MetaTester 5 forced to close
+NQ	0	19:12:48.915	Server	MetaTester 5 stopped
+RO	0	19:13:18.757	Startup	MetaTester 5 x64 build 1755 (18 Jan 2018)
+DK	0	19:13:18.762	Server	MetaTester 5 started on 127.0.0.1:3000
+LP	0	19:13:18.762	Startup	initialization finished
+QD	0	19:13:18.771	127.0.0.1	login (build 1755)
+JR	0	19:13:18.779	Network	38520 bytes of account info loaded
+PJ	0	19:13:18.779	Network	1482 bytes of tester parameters loaded
+KR	0	19:13:18.779	Network	3772 bytes of input parameters loaded
+GH	0	19:13:18.779	Network	415 bytes of symbols list loaded
+HL	0	19:13:18.779	Tester	expert file added: Experts\Bumblebee\Experts\UnitTest_Test.ex5. 35531 bytes loaded
+GL	0	19:13:18.781	Tester	initial deposit 100000.00 USD, leverage 1:100
+FE	0	19:13:18.784	Tester	successfully initialized
+IS	0	19:13:18.784	Network	36 Kb of total initialization data received
+DI	0	19:13:18.784	Tester	Intel Core i7-4500U  @ 1.80GHz, 16272 MB
+FM	0	19:13:18.858	Symbols	AUDCAD.m: symbol to be synchronized
+QI	0	19:13:18.858	Symbols	AUDCAD.m: symbol synchronized, 3544 bytes of symbol info received
+EP	0	19:13:18.861	History	AUDCAD.m: load 31 bytes of history data to synchronize in 0:00:00.000
+QN	0	19:13:18.861	History	AUDCAD.m: history synchronized from 2012.01.01 to 2018.02.01
+KD	0	19:13:19.053	History	AUDCAD.m,M1: history cache allocated for 407314 bars and contains 370189 bars from 2017.01.02 10:00 to 2017.12.29 23:58
+QI	0	19:13:19.082	History	AUDCAD.m,M1: history begins from 2017.01.02 10:00
+GF	0	19:13:19.086	Tester	AUDCAD.m,M1 (RoboForex-MetaTrader 5): 1 minutes OHLC ticks generating
+CQ	0	19:13:19.086	Tester	AUDCAD.m,M1: testing of Experts\Bumblebee\Experts\UnitTest_Test.ex5 from 2018.01.01 00:00 to 2018.02.01 00:00 started with inputs:
+GF	0	19:13:19.086	Tester	  g_unit_testing=true
+JJ	0	19:13:19.086	Tester	  g_unit_testing_OnInit=true
+KO	0	19:13:19.086	Tester	  g_unit_testing_OnLoop=false
+DF	0	19:13:19.086	Tester	  g_unit_testing_OnTick=false
+EP	0	19:13:19.086	Tester	  g_alert_when_failed=true
+OH	0	19:13:19.086	Tester	  g_loop_ms=500
+GG	0	19:13:19.086	Tester	  paramMAPeriod=13
+GS	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest - start
+HE	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+NH	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+IM	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00      - Running new unit test
+[40m PM	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+[40m LQ	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+[40m OK	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - endTestCase[0m
+[40m EF	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+DS	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+OG	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - Running new unit test
+[40m OG	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - assertFalse should succeed[0m
+JO	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - endTestCase
+[40m MQ	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+KI	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+HR	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - Running new unit test
+[40m JD	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+IK	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - endTestCase
+[40m KN	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+EG	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+HL	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - Running new unit test
+[40m JH	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+KD	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - endTestCase
+[40m GQ	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+FK	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+RS	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - Running new unit test
+[40m CD	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_05_float_assertEquals_succeed -     OK     - assertEquals with 2 floats should succeed[0m
+PI	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - endTestCase
+[40m LG	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+QM	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+IM	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - Running new unit test
+[40m GS	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMA_shoudReturnSMA -     OK     - MA must be SMA and 3 bars shifted[0m
+IG	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - endTestCase
+[40m IN	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+EI	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+DG	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - Running new unit test
+[40m MD	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - MA array must contains a couple of SMA[0m
+NQ	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA - endTestCase
+[40m ML	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+DI	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest summary
+LQ	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+QK	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m DK	0	19:13:19.112	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+PH	0	19:13:19.195	Tester	final balance 100000.00 USD
+KQ	0	19:13:19.195	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   UnitTest summary
+CS	0	19:13:19.195	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   ================
+QE	0	19:13:19.195	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m PF	0	19:13:19.195	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+FD	0	19:13:19.201	Tester	AUDCAD.m,M1: 122844 ticks, 30966 bars generated. Test passed in 0:00:00.421 (including ticks preprocessing 0:00:00.031).
+CF	0	19:13:19.201	Tester	287 Mb memory used including 23 Mb of history data, 64 Mb of tick data
+KJ	0	19:13:19.201	Tester	log file "C:\Program Files\MetaTrader 5\Tester\Agent-127.0.0.1-3000\logs\20180210.log" written
+ME	0	19:13:19.527	127.0.0.1	login (build 1755)
+IL	3	19:13:19.536	127.0.0.1	MetaTester 5 forced to close
+NO	0	19:13:19.824	Server	MetaTester 5 stopped
+RD	0	19:14:10.550	Startup	MetaTester 5 x64 build 1755 (18 Jan 2018)
+RQ	0	19:14:10.554	Server	MetaTester 5 started on 127.0.0.1:3000
+MI	0	19:14:10.555	Startup	initialization finished
+FN	0	19:14:10.566	127.0.0.1	login (build 1755)
+MD	0	19:14:10.580	Network	38520 bytes of account info loaded
+KS	0	19:14:10.580	Network	1482 bytes of tester parameters loaded
+HD	0	19:14:10.580	Network	3772 bytes of input parameters loaded
+HN	0	19:14:10.580	Network	415 bytes of symbols list loaded
+HE	0	19:14:10.580	Tester	expert file added: Experts\Bumblebee\Experts\UnitTest_Test.ex5. 35413 bytes loaded
+GR	0	19:14:10.583	Tester	initial deposit 100000.00 USD, leverage 1:100
+DO	0	19:14:10.585	Tester	successfully initialized
+DL	0	19:14:10.585	Network	36 Kb of total initialization data received
+NG	0	19:14:10.585	Tester	Intel Core i7-4500U  @ 1.80GHz, 16272 MB
+FD	0	19:14:10.642	Symbols	AUDCAD.m: symbol to be synchronized
+MP	0	19:14:10.642	Symbols	AUDCAD.m: symbol synchronized, 3544 bytes of symbol info received
+QF	0	19:14:10.644	History	AUDCAD.m: load 31 bytes of history data to synchronize in 0:00:00.000
+QP	0	19:14:10.644	History	AUDCAD.m: history synchronized from 2012.01.01 to 2018.02.01
+JR	0	19:14:10.818	History	AUDCAD.m,M1: history cache allocated for 407314 bars and contains 370189 bars from 2017.01.02 10:00 to 2017.12.29 23:58
+GR	0	19:14:10.848	History	AUDCAD.m,M1: history begins from 2017.01.02 10:00
+QH	0	19:14:10.851	Tester	AUDCAD.m,M1 (RoboForex-MetaTrader 5): 1 minutes OHLC ticks generating
+MG	0	19:14:10.851	Tester	AUDCAD.m,M1: testing of Experts\Bumblebee\Experts\UnitTest_Test.ex5 from 2018.01.01 00:00 to 2018.02.01 00:00 started with inputs:
+EH	0	19:14:10.851	Tester	  g_unit_testing=true
+DP	0	19:14:10.851	Tester	  g_unit_testing_OnInit=true
+EI	0	19:14:10.851	Tester	  g_unit_testing_OnLoop=false
+NP	0	19:14:10.851	Tester	  g_unit_testing_OnTick=false
+KJ	0	19:14:10.851	Tester	  g_alert_when_failed=true
+MQ	0	19:14:10.851	Tester	  g_loop_ms=500
+EL	0	19:14:10.851	Tester	  paramMAPeriod=13
+EE	0	19:14:10.873	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest - start
+NO	0	19:14:10.873	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+MR	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+RF	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00      - Running new unit test
+[40m GF	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+[40m KK	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+HQ	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - endTestCase
+[40m RL	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+CM	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+HN	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - Running new unit test
+[40m DM	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - assertFalse should succeed[0m
+ME	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - endTestCase
+[40m JK	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+HS	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+KI	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - Running new unit test
+[40m MJ	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+NR	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - endTestCase
+[40m LP	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+RH	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+KE	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - Running new unit test
+[40m QF	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+HM	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - endTestCase
+[40m LO	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+QE	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+EJ	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - Running new unit test
+[40m PK	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_05_float_assertEquals_succeed -     OK     - assertEquals with 2 floats should succeed[0m
+GR	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - endTestCase
+[40m CM	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+JG	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+JG	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - Running new unit test
+[40m PD	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMA_shoudReturnSMA -     OK     - MA must be SMA and 3 bars shifted[0m
+NH	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - endTestCase
+[40m NG	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+RP	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+OM	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - Running new unit test
+[40m JO	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - MA array must contains a couple of SMA[0m
+MO	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA - endTestCase
+[40m JE	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+KG	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest summary
+KG	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+JP	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m OP	0	19:14:10.874	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+GR	0	19:14:10.950	Tester	final balance 100000.00 USD
+LK	0	19:14:10.950	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   UnitTest summary
+LM	0	19:14:10.950	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   ================
+RL	0	19:14:10.950	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m KO	0	19:14:10.950	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+PR	0	19:14:10.953	Tester	AUDCAD.m,M1: 122844 ticks, 30966 bars generated. Environment synchronized in 0:00:00.032. Test passed in 0:00:00.358 (including ticks preprocessing 0:00:00.032).
+JD	0	19:14:10.953	Tester	AUDCAD.m,M1: total time from login to stop testing 0:00:00.390 (including 0:00:00.032 for history data synchronization)
+QE	0	19:14:10.953	Tester	287 Mb memory used including 23 Mb of history data, 64 Mb of tick data
+PI	0	19:14:10.953	Tester	log file "C:\Program Files\MetaTrader 5\Tester\Agent-127.0.0.1-3000\logs\20180210.log" written
+RP	0	19:14:11.273	127.0.0.1	login (build 1755)
+PI	3	19:14:11.282	127.0.0.1	MetaTester 5 forced to close
+PM	0	19:14:11.571	Server	MetaTester 5 stopped
+IJ	0	19:14:36.832	Startup	MetaTester 5 x64 build 1755 (18 Jan 2018)
+JO	0	19:14:36.837	Server	MetaTester 5 started on 127.0.0.1:3000
+ND	0	19:14:36.837	Startup	initialization finished
+PP	0	19:14:36.847	127.0.0.1	login (build 1755)
+RF	0	19:14:36.855	Network	38520 bytes of account info loaded
+HF	0	19:14:36.855	Network	1482 bytes of tester parameters loaded
+CF	0	19:14:36.855	Network	3772 bytes of input parameters loaded
+KL	0	19:14:36.855	Network	415 bytes of symbols list loaded
+NP	0	19:14:36.855	Tester	expert file added: Experts\Bumblebee\Experts\UnitTest_Test.ex5. 36053 bytes loaded
+NP	0	19:14:36.857	Tester	initial deposit 100000.00 USD, leverage 1:100
+RI	0	19:14:36.860	Tester	successfully initialized
+OO	0	19:14:36.860	Network	36 Kb of total initialization data received
+PE	0	19:14:36.860	Tester	Intel Core i7-4500U  @ 1.80GHz, 16272 MB
+NR	0	19:14:36.910	Symbols	AUDCAD.m: symbol to be synchronized
+QE	0	19:14:36.910	Symbols	AUDCAD.m: symbol synchronized, 3544 bytes of symbol info received
+ED	0	19:14:36.912	History	AUDCAD.m: load 31 bytes of history data to synchronize in 0:00:00.000
+ER	0	19:14:36.912	History	AUDCAD.m: history synchronized from 2012.01.01 to 2018.02.01
+GP	0	19:14:37.074	History	AUDCAD.m,M1: history cache allocated for 407314 bars and contains 370189 bars from 2017.01.02 10:00 to 2017.12.29 23:58
+DL	0	19:14:37.101	History	AUDCAD.m,M1: history begins from 2017.01.02 10:00
+IJ	0	19:14:37.104	Tester	AUDCAD.m,M1 (RoboForex-MetaTrader 5): 1 minutes OHLC ticks generating
+EE	0	19:14:37.104	Tester	AUDCAD.m,M1: testing of Experts\Bumblebee\Experts\UnitTest_Test.ex5 from 2018.01.01 00:00 to 2018.02.01 00:00 started with inputs:
+EJ	0	19:14:37.104	Tester	  g_unit_testing=true
+DN	0	19:14:37.104	Tester	  g_unit_testing_OnInit=true
+MK	0	19:14:37.104	Tester	  g_unit_testing_OnLoop=false
+FR	0	19:14:37.104	Tester	  g_unit_testing_OnTick=false
+CL	0	19:14:37.104	Tester	  g_alert_when_failed=true
+MD	0	19:14:37.104	Tester	  g_loop_ms=500
+MR	0	19:14:37.104	Tester	  paramMAPeriod=13
+HG	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest - start
+GQ	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+MD	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+JI	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00      - Running new unit test
+[40m OQ	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+[40m KE	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+PG	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - endTestCase
+[40m RJ	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+CO	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+PS	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - Running new unit test
+[40m LS	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - assertFalse should succeed[0m
+ES	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - endTestCase
+[40m JM	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+PE	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+KG	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - Running new unit test
+[40m MH	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+FO	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - endTestCase
+[40m LR	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+RJ	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+CH	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - Running new unit test
+[40m ID	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+PP	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - endTestCase
+[40m DM	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+IG	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+ED	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - Running new unit test
+[40m HH	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_05_float_assertEquals_succeed -     OK     - assertEquals with 2 floats should succeed[0m
+OM	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - endTestCase
+[40m KS	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+RI	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+JQ	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - Running new unit test
+[40m HG	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMA_shoudReturnSMA -     OK     - MA must be SMA and 3 bars shifted[0m
+FK	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - endTestCase
+[40m NE	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+JM	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+[40m OK	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - Running new unit test[0m
+[40m JI	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - MA array must contains a couple of SMA[0m
+MM	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA - endTestCase
+[40m JS	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+CE	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest summary
+KE	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+RO	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m ON	0	19:14:37.129	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+NL	0	19:14:37.200	Tester	final balance 100000.00 USD
+QE	0	19:14:37.200	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   UnitTest summary
+IO	0	19:14:37.200	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   ================
+KI	0	19:14:37.200	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m JM	0	19:14:37.200	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+NP	0	19:14:37.203	Tester	AUDCAD.m,M1: 122844 ticks, 30966 bars generated. Test passed in 0:00:00.343 (including ticks preprocessing 0:00:00.031).
+FS	0	19:14:37.203	Tester	291 Mb memory used including 23 Mb of history data, 64 Mb of tick data
+FF	0	19:14:37.203	Tester	log file "C:\Program Files\MetaTrader 5\Tester\Agent-127.0.0.1-3000\logs\20180210.log" written
+KI	0	19:14:37.438	127.0.0.1	login (build 1755)
+QP	3	19:14:37.454	127.0.0.1	MetaTester 5 forced to close
+CK	0	19:14:37.734	Server	MetaTester 5 stopped
+QP	0	19:14:53.532	Startup	MetaTester 5 x64 build 1755 (18 Jan 2018)
+FF	0	19:14:53.537	Server	MetaTester 5 started on 127.0.0.1:3000
+NM	0	19:14:53.537	Startup	initialization finished
+IJ	0	19:14:53.548	127.0.0.1	login (build 1755)
+NH	0	19:14:53.555	Network	38520 bytes of account info loaded
+DO	0	19:14:53.555	Network	1482 bytes of tester parameters loaded
+GH	0	19:14:53.555	Network	3772 bytes of input parameters loaded
+KR	0	19:14:53.555	Network	415 bytes of symbols list loaded
+MI	0	19:14:53.556	Tester	expert file added: Experts\Bumblebee\Experts\UnitTest_Test.ex5. 35513 bytes loaded
+FF	0	19:14:53.559	Tester	initial deposit 100000.00 USD, leverage 1:100
+LS	0	19:14:53.562	Tester	successfully initialized
+OH	0	19:14:53.562	Network	36 Kb of total initialization data received
+NL	0	19:14:53.562	Tester	Intel Core i7-4500U  @ 1.80GHz, 16272 MB
+GH	0	19:14:53.615	Symbols	AUDCAD.m: symbol to be synchronized
+ML	0	19:14:53.616	Symbols	AUDCAD.m: symbol synchronized, 3544 bytes of symbol info received
+EJ	0	19:14:53.618	History	AUDCAD.m: load 31 bytes of history data to synchronize in 0:00:00.000
+QK	0	19:14:53.618	History	AUDCAD.m: history synchronized from 2012.01.01 to 2018.02.01
+KO	0	19:14:53.777	History	AUDCAD.m,M1: history cache allocated for 407314 bars and contains 370189 bars from 2017.01.02 10:00 to 2017.12.29 23:58
+LF	0	19:14:53.804	History	AUDCAD.m,M1: history begins from 2017.01.02 10:00
+GM	0	19:14:53.807	Tester	AUDCAD.m,M1 (RoboForex-MetaTrader 5): 1 minutes OHLC ticks generating
+CJ	0	19:14:53.807	Tester	AUDCAD.m,M1: testing of Experts\Bumblebee\Experts\UnitTest_Test.ex5 from 2018.01.01 00:00 to 2018.02.01 00:00 started with inputs:
+GL	0	19:14:53.807	Tester	  g_unit_testing=true
+JD	0	19:14:53.807	Tester	  g_unit_testing_OnInit=true
+KE	0	19:14:53.807	Tester	  g_unit_testing_OnLoop=false
+DL	0	19:14:53.807	Tester	  g_unit_testing_OnTick=false
+EF	0	19:14:53.807	Tester	  g_alert_when_failed=true
+OM	0	19:14:53.807	Tester	  g_loop_ms=500
+GH	0	19:14:53.807	Tester	  paramMAPeriod=13
+OH	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest - start
+PK	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+FN	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+QR	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00      - Running new unit test
+[40m HJ	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+[40m DN	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - assertTrue should succeed[0m
+GM	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - endTestCase
+[40m MP	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+LI	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+GJ	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_01_bool_assertTrue_succeed - Running new unit test
+[40m GI	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - assertFalse should succeed[0m
+RI	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - endTestCase
+[40m EG	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+CO	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+PM	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_02_bool_assertFalse_succeed - Running new unit test
+[40m RN	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+QF	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - endTestCase
+[40m CD	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+ML	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+PQ	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_03_integers_int_assertEquals_succeed - Running new unit test
+[40m RR	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - assertEquals with 2 integers should succeed[0m
+CI	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - endTestCase
+[40m OK	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+NQ	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+JN	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_04_integers_long_assertEquals_succeed - Running new unit test
+[40m KO	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::test_05_float_assertEquals_succeed -     OK     - assertEquals with 2 floats should succeed[0m
+HF	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - endTestCase
+[40m DI	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+IS	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+QK	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::test_05_float_assertEquals_succeed - Running new unit test
+[40m OH	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMA_shoudReturnSMA -     OK     - MA must be SMA and 3 bars shifted[0m
+QL	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - endTestCase
+[40m QS	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA -     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%)[0m
+MD	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     initTestCase before every test
+LQ	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMA_shoudReturnSMA - Running new unit test
+[40m ES	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - MA array must contains a couple of SMA[0m
+FK	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA - endTestCase
+[40m EI	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00     MyUnitTest::testGetMAArray_shoudReturnCoupleOfSMA -     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%)[0m
+LS	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   UnitTest summary
+DK	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   ================
+ID	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m LD	0	19:14:53.830	UnitTest_Test (AUDCAD.m,M1)	2018.01.01 00:00:00       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+LE	0	19:14:53.899	Tester	final balance 100000.00 USD
+OO	0	19:14:53.899	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   UnitTest summary
+GI	0	19:14:53.899	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   ================
+MP	0	19:14:53.899	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59   asserts: Total: 9, Success: 9 (100.00%), Failure: 0 (0.00%)
+[40m LS	0	19:14:53.899	UnitTest_Test (AUDCAD.m,M1)	2018.01.31 23:58:59       OK     - Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%)[0m
+RO	0	19:14:53.903	Tester	AUDCAD.m,M1: 122844 ticks, 30966 bars generated. Test passed in 0:00:00.327 (including ticks preprocessing 0:00:00.016).
+QI	0	19:14:53.903	Tester	291 Mb memory used including 23 Mb of history data, 64 Mb of tick data
+HL	0	19:14:53.903	Tester	log file "C:\Program Files\MetaTrader 5\Tester\Agent-127.0.0.1-3000\logs\20180210.log" written
+IS	0	19:14:54.138	127.0.0.1	login (build 1755)
+CF	3	19:14:54.145	127.0.0.1	MetaTester 5 forced to close
+DQ	0	19:14:54.435	Server	MetaTester 5 stopped
